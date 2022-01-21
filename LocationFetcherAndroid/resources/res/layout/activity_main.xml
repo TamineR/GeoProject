@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/bt_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Get Location"/>
+    <TextView android:textSize="32sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Latitude"/>
+    <TextView android:textSize="24sp" android:id="@+id/tv_latitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.0"/>
+    <TextView android:textSize="32sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Longitude"/>
+    <TextView android:textSize="24sp" android:id="@+id/tv_longitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.0"/>
+</LinearLayout>
