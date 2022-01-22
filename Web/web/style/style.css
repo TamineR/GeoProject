@@ -1,0 +1,24 @@
+legend{
+    text-align: center;
+    color: blue;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+fieldset{
+    width: 400px;
+    margin: auto;
+    background-color: azure;
+    border: cornflowerblue dashed 2px;
+    border-radius: 30px;
+}
+
+tr td:first-child{
+    color: darkorange;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+input{
+    border-radius: 10px;
+}
